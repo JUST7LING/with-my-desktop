@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+	2023-09-08
+	boardList.css
+	@Kallie
+*/
+
+ th{
+		border-top: 1px solid #6ABC64;
+		border-bottom: 1px solid #6ABC64;
+		background-color: #DAF4DF;
+	} 
+	
+	table td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(5){
+		text-align: center;
+		
+	}
+	
+	td:nth-child(2):hover{
+		text-decoration: underline;
+		color: darkgreen;
+	}
+	
+	table{
+		/* width: 542px; */
+	}
+	
+	th,td{
+		padding: 10px;
+		
+	}
+	
+	td{
+		border-bottom: 1px solid #BFBFBF;
+	}
+	
+	
+	
+	img{
+		width: 542px;
+	}
+	
+	#gowrite{
+		text-align: right;
+	}
+	
+	#noarticleTd{
+		text-align: center;
+	}
+	
+	
